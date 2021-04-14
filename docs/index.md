@@ -1,0 +1,45 @@
+---
+title: Outline
+slug: /
+---
+
+- Design
+  - Question protocol
+    - Basic: spreadsheet
+    - Advanced: Flow diagram
+  - Misconceptions
+    - Everyone has a first and last name
+    - Everyone has their own email address
+    - Reducing number of pages
+  - Question page
+    - One thing per page
+    - Save progress
+  - File upload
+    - Watch out for the Base64 increase
+    - Client-side compression
+    - Exif data and privacy
+  - Step list
+  - Review
+  - Success
+  - Dashboard
+- Build
+  - Validation
+    - Validation Rules vs. Eligibility Rules
+    - Handling partial data when saving progress across multiple pages
+  - Routing
+    - Conditional logic
+    - Backwards navigation
+  - State management
+    - Downstream effects when data changes
+  - Internationalization
+  - Developer tooling
+    - Storybook
+    - State charts
+    - Testing
+      - End-to-end scenarios
+  - Hacks
+    - Send data to an email
+    - Generate a PDF for manual processing
+- Prior art
+  - 3rd party services (form.io, etc)
+  - GOV.UK Form Builder
