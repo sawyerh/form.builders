@@ -39,7 +39,9 @@ slug: /
       - End-to-end scenarios
   - Hacks
     - Send data to an email
+    - Send form to JSON file in S3, transform to CSV
     - Generate a PDF for manual processing
-- Prior art
+- Resources & Examples
   - 3rd party services (form.io, etc)
   - GOV.UK Form Builder
+  - https://github.com/usdigitalresponse/project-papua
