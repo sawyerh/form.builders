@@ -1,0 +1,84 @@
+---
+title: Integrating with other systems
+---
+
+import Mermaid from "../src/components/Mermaid";
+import TOCInline from "@theme/TOCInline";
+
+What lies behind a user-friendly form is sometimes a scary series of pipes duct taped together to get the form's response data to its final destination so that it can be processed. This is sometimes a necessary evil in order to reduce risk and deliver value in incremental chunks, rather than taking years to deliver anything.
+
+This can take the form of first understanding existing business processes and finding creative ways to find a wedge. Are staff manually entering data into a spreadsheet? Maybe you can create a process that outputs a CSV, which can then be imported into the spreadsheet. Are staff asking customers to email their forms? Your site could send the form as an email.
+
+<TOCInline toc={toc} />
+
+## API
+
+This is the ideal scenario — the form saves its response directly to the destination system using an API (application programming interface), ideally a RESTful API.
+
+## Machine-readable file import
+
+This approach relies on saving the form submission as a machine-readable file, which is then retrieved and imported by the destination system.
+
+Watch out for:
+
+- **Delayed visibility**: There will be a delay between the form being submitted and when the data becomes available in the destination system. This impacts the service journey, like contact center processes, and how you communicate to the user after submission. There could also be legal considerations, like making sure the "submitted" timestamp remains accurate.
+- **Failed imports**: You will need a process for handling a scenario where the destination system fails to import a form response. This could be manual intervention, or communicating to the user that their submission failed.
+- **Data synchronization**: If the destination system doesn't communicate back to the form system, the user experience is limited to writing data, without other likely desired functionality like making edits or seeing the status of a submission.
+
+Common file formats:
+
+- JSON
+- CSV
+- XML
+
+**Example sequence:**
+
+<Mermaid>{`
+  participant User
+  participant Form
+  participant S3 as Secure cloud storage
+  participant Lambda as Scheduled job
+  participant D as Destination system
+  participant Staff
+  Form->>S3: Upload JSON file
+  Form->>User: Indicate success
+  Lambda->>S3: Transform JSON to CSV file
+  D->>S3: Import CSV
+  Staff->>D: Take action on form
+`}</Mermaid>
+
+Related:
+
+- [U.S. Digital Response's Pandemic Unemployment Assistance (PUA) claim service](https://github.com/usdigitalresponse/project-papua) follows this approach
+- [Technical Notes From the Field: Pandemic Unemployment Assistance](https://medium.com/u-s-digital-response/technical-notes-from-the-field-pandemic-unemployment-assistance-db5421134969)
+
+  > Though the nightly outage is annoying, it does have a silver lining — by separating these processes, it allows states to choose from many types of software that can interface with the mainframe, including, but not limited to, open source. There are few modern applications that can interface with mainframes, due to the on-premise deployments and a host of other factors. **Tons of applications can create data files and share them on a file system — giving governments more options and reducing vendor lock in.**
+
+- [2010 Survey of Unemployment Insurance IT Systems (PDF)](http://www.itsc.org/itsc%20public%20library/NationalViewUI_IT%20Systems.pdf)
+
+  > In some cases, two or more systems applications will independently store the same consumer information, creating the need for synchronization between the applications and ultimately more opportunity for data integrity problems. For example, a state that deploys a call center to handle the filing of UI claims faces the challenge of synchronizing the data in this front-end system with data in the master database; any benefits system changes need to be reflected and implemented in these two—or even more—places.
+
+## Email
+
+- Security
+- Shared inboxes
+- Attachment limits
+
+<Mermaid>{`
+  participant User
+  participant Form
+  participant Email inbox
+  participant Staff
+  participant D as Destination system
+  Form->>Email inbox: Submit form data as email
+  Form->>User: Indicate success
+  Staff->>Email inbox: Check email
+  Staff->>D: Manual entry
+  Staff->>D: Take action on form
+`}</Mermaid>
+
+## Paper
+
+Watch out for:
+
+- Strict or difficult file constraints (multi-page TIFF, below 5mb)

@@ -1,47 +1,6 @@
 ---
-title: Outline
+title: "Welcome"
 slug: /
 ---
 
-- Design
-  - Question protocol
-    - Basic: spreadsheet
-    - Advanced: Flow diagram
-  - Misconceptions
-    - Everyone has a first and last name
-    - Everyone has their own email address
-    - Reducing number of pages
-  - Question page
-    - One thing per page
-    - Save progress
-  - File upload
-    - Watch out for the Base64 increase
-    - Client-side compression
-    - Exif data and privacy
-  - Step list
-  - Review
-  - Success
-  - Dashboard
-- Build
-  - Validation
-    - Validation Rules vs. Eligibility Rules
-    - Handling partial data when saving progress across multiple pages
-  - Routing
-    - Conditional logic
-    - Backwards navigation
-  - State management
-    - Downstream effects when data changes
-  - Internationalization
-  - Developer tooling
-    - Storybook
-    - State charts
-    - Testing
-      - End-to-end scenarios
-  - Hacks
-    - Send data to an email
-    - Send form to JSON file in S3, transform to CSV
-    - Generate a PDF for manual processing
-- Resources & Examples
-  - 3rd party services (form.io, etc)
-  - GOV.UK Form Builder
-  - https://github.com/usdigitalresponse/project-papua
+This is a major work in progress and will look pretty empty for awhile. You [can follow me on Twitter](https://twitter.com/sawyerh) to hear when new stuff is added.
