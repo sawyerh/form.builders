@@ -1,7 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Form.builders",
-  tagline: "How to design and build complex forms for vital services",
+  title: "For form builders",
+  tagline:
+    "Common playbooks, patterns, and approaches to delivering a form in civic tech.",
   url: "https://form.builders",
   baseUrl: "/",
   onBrokenLinks: "throw",
