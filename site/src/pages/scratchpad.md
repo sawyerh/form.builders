@@ -39,10 +39,19 @@ This is a scratchpad for other ideas to potentially write about:
     - Testing
       - End-to-end scenarios, Cypress
 - Resources & Examples
-  - 3rd party services (form.io, etc)
-  - GOV.UK Form Builder
-  - https://github.com/usdigitalresponse/project-papua
-  - https://www.gov.uk/service-manual/technology/using-progressive-enhancement
+  - Likely more complete list is here: https://xgovformbuilder.github.io/x-gov-form-community/tools.html
+  - Paid services
+    - Form.io
+  - Open Source
+    - GOV.UK
+      - https://xgovformbuilder.github.io/
+      - WTForms https://govuk-frontend-wtf.herokuapp.com/
+    - Singapore Form Builder
+      - https://form.gov.sg (https://github.com/opengovsg/FormSG)
+    - https://github.com/ohmyform/ohmyform
+    - https://github.com/usdigitalresponse/project-papua
+  - Articles
+    - https://www.gov.uk/service-manual/technology/using-progressive-enhancement
 
 ## Questions for teams
 
