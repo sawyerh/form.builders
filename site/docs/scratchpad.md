@@ -55,6 +55,9 @@ Other topics I'd like to write about:
     - https://github.com/usdigitalresponse/project-papua
   - Articles
     - https://www.gov.uk/service-manual/technology/using-progressive-enhancement
+    - https://www.w3.org/2001/tag/doc/leastPower.html
+    - https://digital.canada.ca/2021/01/11/a-menagerie-of-government-forms
+    - https://thoughtbot.com/blog/dynamic-forms-with-stimulus
 
 ## Questions for teams
 
