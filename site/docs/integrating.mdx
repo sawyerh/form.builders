@@ -1,5 +1,5 @@
 ---
-title: Identify the integration path
+title: System integration
 ---
 
 import Mermaid from "../src/components/Mermaid";
@@ -37,21 +37,20 @@ Common file formats:
 
 <Mermaid>{`
   participant User
-  participant Form
-  participant S3 as Secure cloud storage
-  participant Lambda as Scheduled job
+  participant Form as Form app
+  participant S3 as Cloud storage
   participant D as Destination system
   participant Staff
-  Form->>S3: Upload JSON file
+  User->>Form: Submit
+  Form->>S3: Upload CSV file
   Form->>User: Indicate success
-  Lambda->>S3: Transform JSON to CSV file
-  D->>S3: Import CSV
-  Staff->>D: Take action on form
+  D->S3: Import CSV
+  Staff->D: Take action on submission
 `}</Mermaid>
 
 Related:
 
-- [U.S. Digital Response's Pandemic Unemployment Assistance (PUA) claim service](https://github.com/usdigitalresponse/project-papua) follows this approach
+- [U.S. Digital Response's Pandemic Unemployment Assistance (PUA) claim service](https://github.com/usdigitalresponse/project-papua) followed this approach
 - [Technical Notes From the Field: Pandemic Unemployment Assistance](https://medium.com/u-s-digital-response/technical-notes-from-the-field-pandemic-unemployment-assistance-db5421134969)
 
   > Though the nightly outage is annoying, it does have a silver lining — by separating these processes, it allows states to choose from many types of software that can interface with the mainframe, including, but not limited to, open source. There are few modern applications that can interface with mainframes, due to the on-premise deployments and a host of other factors. **Tons of applications can create data files and share them on a file system — giving governments more options and reducing vendor lock in.**
@@ -68,15 +67,16 @@ Related:
 
 <Mermaid>{`
   participant User
-  participant Form
+  participant Form as Form app
   participant Email inbox
   participant Staff
   participant D as Destination system
-  Form->>Email inbox: Submit form data as email
+  User->>Form: Submit
+  Form->>Email inbox: Send email
   Form->>User: Indicate success
   Staff->>Email inbox: Check email
   Staff->>D: Manual entry
-  Staff->>D: Take action on form
+  Staff->>D: Take action on submission
 `}</Mermaid>
 
 ## Paper

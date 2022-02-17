@@ -2,7 +2,7 @@
 title: Scratchpad
 ---
 
-This is a scratchpad for other ideas to potentially write about:
+Other topics I'd like to write about:
 
 - Design
   - Question protocol
@@ -41,7 +41,6 @@ This is a scratchpad for other ideas to potentially write about:
 - Resources & Examples
   - Likely more complete list is here: https://xgovformbuilder.github.io/x-gov-form-community/tools.html
   - Paid services
-    - Form.io
   - Open Source
     - GOV.UK
       - https://xgovformbuilder.github.io/
