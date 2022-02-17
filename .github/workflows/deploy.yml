@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths: [site/**]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -15,6 +16,7 @@ jobs:
         with:
           node-version: 16.x
           cache: npm
+          cache-dependency-path: ./site/package-lock.json
       - name: Build website
         working-directory: site
         run: |
