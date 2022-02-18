@@ -43,7 +43,7 @@ Other topics I'd like to write about:
   - Paid services
   - Open Source
     - GOV.UK
-      - https://xgovformbuilder.github.io/
+      - https://xgovformbuilder.github.io/x-gov-form-community/
       - WTForms https://govuk-frontend-wtf.herokuapp.com/
     - Singapore Form Builder
       - https://form.gov.sg (https://github.com/opengovsg/FormSG)
