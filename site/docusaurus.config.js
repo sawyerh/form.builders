@@ -44,6 +44,10 @@ module.exports = {
       style: "dark",
       links: [
         {
+          to: "contributing",
+          label: "Contributing",
+        },
+        {
           label: "GitHub",
           href: "https://github.com/sawyerh/form.builders",
         },
