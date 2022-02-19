@@ -15,7 +15,7 @@ module.exports = {
       backgroundColor: "#303846",
       textColor: "#fff",
       content:
-        "<strong>Work in progress.</strong> You can follow progress <a href='https://twitter.com/sawyerh'>on Twitter</a>.",
+        "<strong>Work in progress.</strong> You can follow progress <a href='https://twitter.com/FormBuilders'>on Twitter</a>.",
       isCloseable: false,
     },
     navbar: {
@@ -49,7 +49,7 @@ module.exports = {
         },
         {
           label: "Twitter",
-          href: "https://twitter.com/sawyerh",
+          href: "https://twitter.com/FormBuilders",
         },
       ],
     },

@@ -1,8 +1,9 @@
 ---
 title: Scratchpad
+hide_table_of_contents: true
 ---
 
-Other topics I'd like to write about:
+# Potential future topics
 
 - Design
   - Question protocol
