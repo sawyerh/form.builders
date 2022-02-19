@@ -11,6 +11,13 @@ module.exports = {
   organizationName: "sawyerh", // Usually your GitHub org/user name.
   projectName: "form.builders", // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      backgroundColor: "#303846",
+      textColor: "#fff",
+      content:
+        "<strong>Work in progress.</strong> You can follow progress <a href='https://twitter.com/sawyerh'>on Twitter</a>.",
+      isCloseable: false,
+    },
     navbar: {
       title: "Form.builders",
       logo: {
@@ -19,10 +26,12 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
+          to: "docs",
           label: "Topics",
-          position: "left",
+        },
+        {
+          to: "contributing",
+          label: "Contributing",
         },
         {
           href: "https://github.com/sawyerh/form.builders",
@@ -35,17 +44,12 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Elsewhere",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/sawyerh/form.builders",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/sawyerh",
-            },
-          ],
+          label: "GitHub",
+          href: "https://github.com/sawyerh/form.builders",
+        },
+        {
+          label: "Twitter",
+          href: "https://twitter.com/sawyerh",
         },
       ],
     },
@@ -56,12 +60,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/sawyerh/form.builders/edit/main/site/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             "https://github.com/sawyerh/form.builders/edit/main/site/blog/",
         },
