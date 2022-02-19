@@ -2,7 +2,7 @@
 module.exports = {
   title: "For form builders",
   tagline:
-    "Common playbooks, patterns, and approaches to delivering a form in civic tech.",
+    "Playbooks, patterns, and approaches to delivering a digital form in civic tech.",
   url: "https://form.builders",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -21,7 +21,7 @@ module.exports = {
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
+          label: "Topics",
           position: "left",
         },
         {

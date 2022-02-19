@@ -23,7 +23,7 @@ export default function Home() {
               )}
               to={useBaseUrl("docs/")}
             >
-              Get Started
+              View the topics
             </Link>
           </div>
         </div>
