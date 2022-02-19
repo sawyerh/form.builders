@@ -7,7 +7,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
   organizationName: "sawyerh", // Usually your GitHub org/user name.
   projectName: "form.builders", // Usually your repo name.
   themeConfig: {
