@@ -23,6 +23,12 @@
   --ifm-code-font-size: 95%;
 }
 
+html[data-theme="dark"] {
+  --ifm-link-color: var(--ifm-color-primary-lighter);
+  --ifm-menu-color-active: var(--ifm-color-primary-lighter);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary-lighter);
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;

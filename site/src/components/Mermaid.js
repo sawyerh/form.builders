@@ -23,7 +23,12 @@ const Mermaid = (props) => {
   }, []);
 
   return svg ? (
-    <div dangerouslySetInnerHTML={{ __html: svg }} />
+    <div
+      style={{
+        backgroundColor: "#fff",
+      }}
+      dangerouslySetInnerHTML={{ __html: svg }}
+    />
   ) : (
     <div>Loading chart...</div>
   );
