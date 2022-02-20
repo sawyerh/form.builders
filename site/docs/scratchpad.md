@@ -31,6 +31,9 @@ hide_table_of_contents: true
   - Routing
     - Conditional logic
     - Backwards navigation
+    - State machines
+      - JS: xstate
+      - Ruby: https://github.com/gocardless/statesman
   - State management
     - Downstream effects when data changes
   - Internationalization
