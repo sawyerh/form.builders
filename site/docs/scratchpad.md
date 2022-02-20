@@ -34,6 +34,11 @@ hide_table_of_contents: true
   - State management
     - Downstream effects when data changes
   - Internationalization
+  - Schema-based forms?
+    - https://jsonforms.io/docs/
+    - https://github.com/rjsf-team/react-jsonschema-form
+    - https://www.taniarascia.com/schema-based-form-system/
+    - 
   - Developer tooling
     - Storybook
     - State charts
