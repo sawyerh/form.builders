@@ -34,6 +34,7 @@ hide_table_of_contents: true
     - State machines
       - JS: xstate
       - Ruby: https://github.com/gocardless/statesman
+      - Yaml: https://medium.com/just-tech/configuration-driven-state-machines-db26b85d1a67
   - State management
     - Downstream effects when data changes
   - Internationalization
