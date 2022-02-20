@@ -50,7 +50,6 @@ hide_table_of_contents: true
       - End-to-end scenarios, Cypress
 - Resources & Examples
   - Likely more complete list is here: https://xgovformbuilder.github.io/x-gov-form-community/tools.html
-  - Paid services
   - Open Source
     - GOV.UK
       - https://xgovformbuilder.github.io/x-gov-form-community/
@@ -63,6 +62,7 @@ hide_table_of_contents: true
       - https://cds-snc.github.io/platform-forms-client/
     - https://github.com/ohmyform/ohmyform
     - https://github.com/usdigitalresponse/project-papua
+  - Paper forms: https://www.gsa.gov/reference/forms
   - Articles
     - https://www.gov.uk/service-manual/technology/using-progressive-enhancement
     - https://www.w3.org/2001/tag/doc/leastPower.html
