@@ -38,7 +38,7 @@ hide_table_of_contents: true
     - https://jsonforms.io/docs/
     - https://github.com/rjsf-team/react-jsonschema-form
     - https://www.taniarascia.com/schema-based-form-system/
-    - 
+    - https://docs.djangoproject.com/en/4.0/topics/forms/modelforms/
   - Developer tooling
     - Storybook
     - State charts
