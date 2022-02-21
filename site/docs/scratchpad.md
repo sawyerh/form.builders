@@ -20,7 +20,9 @@ hide_table_of_contents: true
     - Watch out for the Base64 increase
     - Client-side compression
     - Exif data and privacy
-  - Step list
+  - Showing progress
+    - Step lists
+    - Summary menu vs. progress indicator
   - Review
   - Success
   - Dashboard
