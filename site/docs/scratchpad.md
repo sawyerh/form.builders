@@ -74,6 +74,7 @@ hide_table_of_contents: true
   - Paper forms: https://www.gsa.gov/reference/forms
   - Guides
     - https://www.gov.uk/service-manual/design/form-structure
+    - [PDF: Norwegian ELMER 2 Guidelines- User Interface Guidelines for Governmental Forms on the Internet](/exports/elmer-2-ui-guidelines.pdf)
   - Articles
     - https://www.gov.uk/service-manual/technology/using-progressive-enhancement
     - https://www.w3.org/2001/tag/doc/leastPower.html
