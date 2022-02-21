@@ -75,7 +75,7 @@ hide_table_of_contents: true
       - Austin uses: https://city-of-austin.gitbook.io/digital-forms-guide/current-tool/formstack
     - form.io
       - SF uses: https://medium.com/san-francisco-digital-services/how-to-make-a-form-d1d1b67d95d7
-        - "City of Philadelphia uses JotForm, City of Austin uses Formstack, and the State of Georgia uses Drupal’s built-in form tool."
+        - "City of Philadelphia uses JotForm, City of Austin uses Formstack, and the [State of Georgia uses Drupal’s built-in form tool.](https://georgiagov.atlassian.net/wiki/spaces/KB/pages/598507525/Webform)"
   - Paper forms: https://www.gsa.gov/reference/forms
   - Guides
     - https://www.gov.uk/service-manual/design/form-structure
