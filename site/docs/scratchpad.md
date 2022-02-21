@@ -26,6 +26,9 @@ hide_table_of_contents: true
   - Review
   - Success
   - Dashboard
+  - Other design resources
+    - [Everything](https://www.effortmark.co.uk/category/forms/) from [Caroline Jarrett](https://www.effortmark.co.uk/forms/more-advice-on-creating-better-forms/)
+      - [Form design double diamond](https://www.slideshare.net/cjforms/how-to-design-a-better-form)
 - Build
   - Validation
     - Validation Rules vs. Eligibility Rules
