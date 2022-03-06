@@ -78,6 +78,11 @@ hide_table_of_contents: true
       - SF uses: https://medium.com/san-francisco-digital-services/how-to-make-a-form-d1d1b67d95d7
         - "City of Philadelphia uses JotForm, City of Austin uses Formstack, and the [State of Georgia uses Drupal’s built-in form tool.](https://georgiagov.atlassian.net/wiki/spaces/KB/pages/598507525/Webform)"
   - Paper forms: https://www.gsa.gov/reference/forms
+  - Books
+    - [Form Design Patterns](https://www.smashingmagazine.com/printed-books/form-design-patterns/)
+    - [Forms that Work](https://www.elsevier.com/books/forms-that-work/krug/978-1-55860-710-1)
+    - [Web Form Design: Filling in the Blanks](https://www.lukew.com/resources/web_form_design.asp)
+    - [The Form Book](https://thamesandhudson.com/form-book-best-practice-in-creating-forms-for-printed-and-online-use-9780500515082)
   - Guides
     - https://www.gov.uk/service-manual/design/form-structure
     - [PDF: Norwegian ELMER 2 Guidelines- User Interface Guidelines for Governmental Forms on the Internet](/exports/elmer-2-ui-guidelines.pdf)
