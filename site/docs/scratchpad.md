@@ -15,6 +15,7 @@ hide_table_of_contents: true
     - Reducing number of pages
   - Question page
     - One thing per page
+      - [Wizards](https://www.nngroup.com/articles/wizards/)
     - Save progress
   - File upload
     - Watch out for the Base64 increase
