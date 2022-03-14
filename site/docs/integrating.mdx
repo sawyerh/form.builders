@@ -59,6 +59,13 @@ Related:
 
   > In some cases, two or more systems applications will independently store the same consumer information, creating the need for synchronization between the applications and ultimately more opportunity for data integrity problems. For example, a state that deploys a call center to handle the filing of UI claims faces the challenge of synchronizing the data in this front-end system with data in the master database; any benefits system changes need to be reflected and implemented in these two—or even more—places.
 
+- [VA.gov education benefits](https://github.com/department-of-veterans-affairs/va.gov-team/blob/a4b2c379c6f565afb23d845dcf0d0c5d08dda134/products/education-careers/application/README.md#data-flow)
+
+  > Education forms are received by the backend, validated, and saved as a SavedClaim.
+  A scheduled job CreateDailySpoolFiles runs on a nightly basis.
+  This job takes all the received claims and combines them into one large spool (text) file.
+  This file is uploaded to the TIMS (SFTP) backend service.
+
 ## Email
 
 - Security
