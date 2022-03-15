@@ -49,6 +49,7 @@ hide_table_of_contents: true
   - Schema-based forms?
     - https://jsonforms.io/docs/
     - https://github.com/rjsf-team/react-jsonschema-form
+      -  See link below to VA.gov's usage of this
     - https://www.taniarascia.com/schema-based-form-system/
     - https://docs.djangoproject.com/en/4.0/topics/forms/modelforms/
   - Developer tooling
@@ -59,7 +60,7 @@ hide_table_of_contents: true
 - Resources & Examples
   - Comprehensive list from UK: https://xgovformbuilder.github.io/x-gov-form-community/tools.html
   - [Comprehensive list of resources, tool evaluations, and examples from...City of Austin I think?](https://docs.google.com/spreadsheets/d/1ov27dpfaFW9nk0mVIpshj5Sj5mxoKaQafk8W4oyvqws/edit)
-  - Open Source
+  - Public
     - GOV.UK
       - [Latest effort in UK](https://gds.blog.gov.uk/2021/07/06/making-all-forms-on-gov-uk-accessible-easy-to-use-and-quick-to-process/)
       - https://xgovformbuilder.github.io/x-gov-form-community/
@@ -70,9 +71,12 @@ hide_table_of_contents: true
       - https://forms-formulaires.alpha.canada.ca/en/welcome-bienvenue
       - https://github.com/cds-snc/platform-forms-node/
       - https://cds-snc.github.io/platform-forms-client/
-    - https://github.com/ohmyform/ohmyform
-    - https://github.com/usdigitalresponse/project-papua
-    - https://docassemble.org/
+    - U.S.
+      - [VA.gov's fork of `react-jsonschema-form`](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/forms/)
+      - https://github.com/usdigitalresponse/project-papua
+    - Non-govt
+      - https://github.com/ohmyform/ohmyform
+      - https://docassemble.org/
   - Commercial
     - [Austin's form evaluations](https://docs.google.com/presentation/d/e/2PACX-1vQ_SZlJIFEZeSSYx_WwKKbmnnOhk_p3D7LPAyMGvtpCXBrlycSeNdXP6GMpBRGfcWh8MrUIMLrxcNQM/pub?start=false&loop=false&delayms=3000&slide=id.g28f2f0de0c_0_165)
     - Formstack
