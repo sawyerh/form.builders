@@ -73,6 +73,7 @@ hide_table_of_contents: true
       - https://cds-snc.github.io/platform-forms-client/
     - U.S.
       - [VA.gov's fork of `react-jsonschema-form`](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/forms/)
+        - [VA.gov form library tech spec](https://github.com/department-of-veterans-affairs/va.gov-team/blob/551d7f17ed1741f290eb6182695dd0984144fc11/platform/engineering/design-docs/2021-05-18-forms-library.md)
       - https://github.com/usdigitalresponse/project-papua
     - Non-govt
       - https://github.com/ohmyform/ohmyform
