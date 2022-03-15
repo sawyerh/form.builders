@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 - Design
   - Question protocol
-    - Basic: spreadsheet
+    - Basic: [text outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/pension-outline.md) or spreadsheet
     - Advanced: Flow diagram
   - Misconceptions
     - Everyone has a first and last name
@@ -28,9 +28,10 @@ hide_table_of_contents: true
   - Review
   - Success
   - Dashboard
-  - Other design resources
+  - Other resources
     - [Everything](https://www.effortmark.co.uk/category/forms/) from [Caroline Jarrett](https://www.effortmark.co.uk/forms/more-advice-on-creating-better-forms/)
       - [Form design double diamond](https://www.slideshare.net/cjforms/how-to-design-a-better-form)
+    - [VA.gov Form Design Process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/b5a23efe054ae351306225787f77dee4840cd3fc/teams/vsa/design/getting-started-with-va.gov-forms.md#the-form-design-process) - covers product, design, and engineering
 - Build
   - Validation
     - Validation Rules vs. Eligibility Rules
