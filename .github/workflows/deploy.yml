@@ -6,6 +6,11 @@ on:
     paths: [site/**]
   workflow_dispatch:
 
+
+concurrency:
+  group: ${{ github.head_ref }}-deploy
+  cancel-in-progress: true
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
