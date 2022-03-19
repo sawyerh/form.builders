@@ -32,6 +32,7 @@ hide_table_of_contents: true
     - [Everything](https://www.effortmark.co.uk/category/forms/) from [Caroline Jarrett](https://www.effortmark.co.uk/forms/more-advice-on-creating-better-forms/)
       - [Form design double diamond](https://www.slideshare.net/cjforms/how-to-design-a-better-form)
     - [VA.gov Form Design Process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/b5a23efe054ae351306225787f77dee4840cd3fc/teams/vsa/design/getting-started-with-va.gov-forms.md#the-form-design-process) - covers product, design, and engineering
+    - [Creating accessible forms for print + PDF](https://civicdesign.org/fieldguides/accessible-forms-print-pdf/
 - Build
   - Validation
     - Validation Rules vs. Eligibility Rules
