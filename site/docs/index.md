@@ -4,7 +4,7 @@ slug: /
 hide_table_of_contents: true
 ---
 
-## Resources and approaches delivering a digital form in civic tech.
+## Resources and approaches for delivering a digital form in civic tech.
 
 :::caution Heads up
 This is a major work in progress and will look pretty empty for awhile. You [can follow me on Twitter](https://twitter.com/FormBuilders) to hear when topics are added or updated.
