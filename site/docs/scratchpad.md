@@ -47,6 +47,7 @@ hide_table_of_contents: true
       - Python, Markdown, Yaml: https://docassemble.org/
   - State management
     - Downstream effects when data changes
+    - [Browsers, JSON, and FormData](https://blog.jim-nielsen.com/2022/browsers-json-formdata/)
   - Internationalization
   - Schema-based forms?
     - https://jsonforms.io/docs/
