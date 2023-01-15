@@ -39,6 +39,7 @@ hide_table_of_contents: true
   - Validation
     - Validation Rules vs. Eligibility Rules
     - Handling partial data when saving progress across multiple pages
+      - Save partial submissions to file storage?
   - Routing
     - Conditional logic
     - Backwards navigation
