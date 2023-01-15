@@ -22,6 +22,8 @@ hide_table_of_contents: true
     - Watch out for the Base64 increase
     - Client-side compression
     - Exif data and privacy
+  - Other inputs
+    - Phone: https://evilmartians.com/chronicles/phone-inputs-and-you-the-designers-essential-ui-guide
   - Showing progress
     - Step lists
     - Summary menu vs. progress indicator
