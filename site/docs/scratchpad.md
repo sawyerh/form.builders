@@ -42,6 +42,7 @@ hide_table_of_contents: true
     - Validation Rules vs. Eligibility Rules
     - Handling partial data when saving progress across multiple pages
       - Save partial submissions to file storage?
+    - [Accessible form balidation](https://www.smashingmagazine.com/2023/02/guide-accessible-form-validation/)
   - Routing
     - Conditional logic
     - Backwards navigation
