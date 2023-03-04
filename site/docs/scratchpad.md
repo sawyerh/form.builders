@@ -43,6 +43,7 @@ hide_table_of_contents: true
     - Handling partial data when saving progress across multiple pages
       - Save partial submissions to file storage?
     - [Accessible form balidation](https://www.smashingmagazine.com/2023/02/guide-accessible-form-validation/)
+    - [Write better error messages](https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f)
   - Routing
     - Conditional logic
     - Backwards navigation
